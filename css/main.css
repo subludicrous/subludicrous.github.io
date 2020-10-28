@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    overflow: auto;
+}
+a {
+    font-family: helvetica;
+}
+#header {
+    height: 75px;
+    background: #1b1e24;
+    color: rgb(211, 211, 211);
+    padding: 0 25px;
+}
+#header h1 {
+    font-family: helvetica;
+    display: inline-block;
+    margin: 18px 0;
+    padding: 0;
+}
+.onsite {
+    border-bottom: 3px solid rgb(115, 251, 97) !important;
+}
+.button {
+    height: 72px;
+    width: 80px;
+    color: rgb(211, 211, 211);
+    float: right;
+    border-bottom: 3px solid #1b1e24;
+}
+.button:hover {
+    border-bottom: 3px solid rgb(115, 251, 97);
+    color: rgb(115, 251, 97);
+}
+.button h3 {
+    margin: 25px 13px;
+}
+#main{
+    padding: 25px;
+    height: 600px;
+}
+.content{
+    
+}
+.content h1{ 
+    margin: 0;
+    font-family: sans-serif;
+}
+#footer {
+    background: rgb(9, 134, 30);
+    padding: 30px;
+}
+#footer h3 {
+    color: rgb(211, 211, 211);
+    width: 50%;
+    margin: 0 43%;
+    padding: 20px 0;
+}
